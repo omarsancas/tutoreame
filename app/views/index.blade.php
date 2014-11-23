@@ -35,9 +35,8 @@
                             <li><a href="#">BLOG</a></li>
                             <li><a href="#">CONTACTO</a></li>
                         </ul>
-                        <form class="navbar-form pull-left">
-                            <a class="btn btn-primary" href="#">SIGN IN</a>
-                        </form>
+
+
                     </div>
                 </div>
             </div>
@@ -51,11 +50,27 @@
             <div class="row">
                 <div class="col-sm-4">
                     <h3>Somos una red de estudiantes para estudiantes</h3>
-                    <p>
-                        You have the design, you have the code. We’ve created the product that will help your startup to look even better.
-                    </p>
+
+                    <div class="signup-form">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block btn-info">Ingresa</button>
+                            </div>
+                        </form>
+                    </div>
 
                 </div>
+
+
                 <div class="col-sm-7 col-sm-offset-1 player-wrapper">
                     <div class="player">
                         <iframe src="http://player.vimeo.com/video/29568236?color=3498db" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

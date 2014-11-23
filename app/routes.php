@@ -22,3 +22,16 @@ Route::get('alumno', function()
 {
     return View::make('usuario');
 });
+
+
+/*
+ * Sesiones para login
+ * */
+
+Route::get('login', [
+    'as' => 'login',
+    'uses' => 'SesionesController@create'
+]);
+Route::post('login', 'SesionesController@store');
+Route::get('logout', 'SesionesController@destroy');
+Route::resource('sesiones', 'SesionesController');

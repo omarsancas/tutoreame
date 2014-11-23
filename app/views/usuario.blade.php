@@ -55,7 +55,7 @@
                     <a href="user-private-profile.html"><i class="icon-user-1"></i> Editar perfil</a>
                 </li>
                 <li class="">
-                    <a href="user-private-users.html"><i class="fa fa-group"></i> Manage Friends</a>
+                    <a href="user-private-users.html"><i class="fa fa-group"></i> Profesor favorito</a>
                 </li>
                 <li class="">
                     <a href="user-private-messages.html"><i class="icon-comment-fill-1"></i> Messages</a>
@@ -153,7 +153,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="subnav">
             <ul class="nav navbar-nav">
-                <li><a href="user-private-timeline.html"><i class="fa fa-fw icon-ship-wheel"></i> My Timeline</a>
+                <li><a href="user-private-timeline.html"><i class="fa fa-fw icon-ship-wheel"></i> TutoreaME line</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -197,145 +197,20 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-6">
 
-        <!--Friends -->
-        <div class="panel panel-default">
-            <div class="panel-heading panel-heading-gray">
-                <a href="#" class="btn btn-white btn-xs pull-right"><i class="fa fa-pencil"></i></a>
-                <i class="fa fa-info-circle"></i> About
-            </div>
-            <div class="panel-body">
-                <ul class="list-unstyled profile-about">
-                    <li>
-                        <div class="row">
-                            <div class="col-sm-4"><span class="text-muted">Date of Birth</span>
-                            </div>
-                            <div class="col-sm-8">12 January 1990</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-sm-4"><span class="text-muted">Job</span>
-                            </div>
-                            <div class="col-sm-8">Specialist</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-sm-4"><span class="text-muted">Gender</span>
-                            </div>
-                            <div class="col-sm-8">Male</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-sm-4"><span class="text-muted">Lives in</span>
-                            </div>
-                            <div class="col-sm-8">Miami, FL, USA</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="row">
-                            <div class="col-sm-4"><span class="text-muted">Credits</span>
-                            </div>
-                            <div class="col-sm-8">249</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-
-        <!--Friends -->
-        <div class="panel panel-default">
-            <div class="panel-heading panel-heading-gray">
-                <a href="#" class="btn btn-primary btn-xs pull-right">Add <i class="fa fa-plus"></i></a>
-                <i class="icon-user-1"></i> Friends
-            </div>
-            <ul class="list-unstyled friends-list">
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-6.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/woman-3.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-2.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-9.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/woman-9.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-4.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-1.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/woman-4.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/people/110/guy-6.jpg" alt="image" class="img-responsive" />
-                    </a>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
 <div class="panel panel-default">
     <div class="panel-heading panel-heading-gray">
-        <i class="fa fa-bookmark"></i> Bookmarks
+        <i class="fa fa-bookmark"></i> Profesores
     </div>
     <div class="panel-body">
         <div class="row">
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a href="#" class="h5 margin-none">Climb a Mountain</a>
-                        <div class="text-muted">
-                            <small><i class="fa fa-calendar"></i> 24/10/2014</small>
-                        </div>
-                    </div>
-                    <a href="#">
-                        <img src="images/place1-full.jpg" alt="image" class="img-responsive" />
-                    </a>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit ipsum laborum maiores tempore veritatis....</p>
-                        <div>
-                            <a href="#" class="btn btn-primary btn-xs pull-right">read</a>
-                            <a href="#" class="text-muted"> <i class="fa fa-comments"></i> 6</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
+                <div class="panel panel-default center-block">
                     <div class="panel-body text-center">
-                        <a href="#" class="h5 margin-none">Vegetarian Pizza</a>
+                        <a href="#" class="btn btn-success btn-xs pull-right"><i class="fa fa-check-circle"></i></a>
+                        <a href="#" class="btn btn-primary btn-xs pull-right">Ver perfil</a>
+
+                        <a href="#" class="h5 margin-none">Omar Sánchez</a>
                         <div class="text-muted">
                             <small><i class="fa fa-calendar"></i> 24/10/2014</small>
                         </div>
@@ -348,41 +223,51 @@
                         </div>
                     </div>
                     <a href="#">
-                        <img src="images/food1-full.jpg" alt="image" class="img-responsive" />
+                        <img src="{{ asset ('usuario/images/people/110/guy-1.jpg')}}" alt="image" class="img-responsive" />
                     </a>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit ipsum laborum maiores tempore veritatis....</p>
+                        <p>Hola estudie en el IPN, soy estudiante de ingeniería y te puedo ayudar en algebra 1....</p>
                         <div>
-                            <a href="#" class="btn btn-primary btn-xs pull-right">read</a>
+                            <a href="#" class="btn btn-primary btn-xs pull-right">Conectar</a>
                             <a href="#" class="text-muted"> <i class="fa fa-comments"></i> 6</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
+
+
+        <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-body">
+                    <div class="panel-body text-center">
                         <a href="#" class="btn btn-success btn-xs pull-right"><i class="fa fa-check-circle"></i></a>
-                        <a href="#" class="h5">Win a Holiday</a>
+                        <a href="#" class="h5 margin-none">Omar Sánchez</a>
                         <div class="text-muted">
                             <small><i class="fa fa-calendar"></i> 24/10/2014</small>
                         </div>
+                        <div class="rating">
+                            <span class="star"></span>
+                            <span class="star filled"></span>
+                            <span class="star filled"></span>
+                            <span class="star filled"></span>
+                            <span class="star filled"></span>
+                        </div>
                     </div>
                     <a href="#">
-                        <img src="images/place2-full.jpg" alt="image" class="img-responsive" />
+                        <img src="{{ asset ('usuario/images/people/110/guy-1.jpg')}}" alt="image" class="img-responsive" />
                     </a>
                     <div class="panel-body">
-                        <ul class="icon-list block bordered">
-                            <li><i class="fa fa-calendar fa-fw"></i> <a href="#">1 Week</a>
-                            </li>
-                            <li><i class="fa fa-users fa-fw"></i> <a href="#"> 2 People</a>
-                            </li>
-                            <li><i class="fa fa-map-marker fa-fw"></i> <a href="#">Miami, FL, USA</a>
-                            </li>
-                        </ul>
+                        <p>Hola estudie en el IPN, soy estudiante de ingeniería y te puedo ayudar en algebra 1....</p>
+                        <div>
+                            <a href="#" class="btn btn-primary btn-xs pull-right">Conectar</a>
+                            <a href="#" class="text-muted"> <i class="fa fa-comments"></i> 6</a>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -390,7 +275,7 @@
 
 <!-- Footer -->
 <div class="footer">
-    Social Network Template &copy; Copyright Notice
+    TutoreaME &copy; Copyright Notice
 </div>
 
 <!-- // Footer -->
