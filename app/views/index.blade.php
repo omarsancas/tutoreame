@@ -46,6 +46,7 @@
         <div class="background">
             &nbsp;
         </div>
+        {{ Form::open(array('route' => 'sesiones.store','class' => 'form-horizontal')) }}
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -54,11 +55,11 @@
                     <div class="signup-form">
                         <form>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Email">
+                                <input class="form-control" type="text" name="usuario" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <div>
-                                    <input type="password" class="form-control" placeholder="Password">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
                                 </div>
 
                             </div>
@@ -69,7 +70,7 @@
                     </div>
 
                 </div>
-
+                {{Form::close() }}
 
                 <div class="col-sm-7 col-sm-offset-1 player-wrapper">
                     <div class="player">
@@ -153,7 +154,7 @@
         <div class="container">
             <nav class="pull-left">
                 <ul>
-                    
+
                 </ul>
             </nav>
             <div class="social-btns pull-right">

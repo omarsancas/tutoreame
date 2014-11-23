@@ -17,11 +17,43 @@ Route::get('/', function()
 });
 
 
+Route::get('crear', function()
+{
+    $usuario = new User;
+    $usuario->user_id = 'dulce@gmail.com';
+    $usuario->password = Hash::make('123');
+    $usuario->save();
+});
+
+
+Route::get('crearprofesores', function()
+{
+    $usuario = new User;
+    $usuario->user_id = 'dulce@gmail.com';
+    $usuario->password = Hash::make('123');
+    $usuario->save();
+});
+
+
+Route::get('videollamada', function(){
+
+    return View::make('videollamada');
+});
+
+
+
+
 
 Route::get('alumno', function()
 {
     return View::make('usuario');
 });
+
+
+Route::post('alumno', [
+    'as' => 'buscar',
+    'uses' => 'HomeController@buscarMateria'
+]);
 
 
 /*

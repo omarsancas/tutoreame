@@ -20,6 +20,15 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+    public function buscarMateria()
+    {
+        $querynombre = Input::get('q');
 
+        $tutores = DB::table('tutor')
+                ->where('materias_','LIKE',"%$querynombre%")
+                ->get();
+
+        return View::make('usuariobusqueda')->with('tutores',$tutores);
+    }
 
 }

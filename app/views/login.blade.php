@@ -25,7 +25,7 @@
 
 <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
 <!-- This is a very simple parallax effect achieved by simple CSS 3 multiple backgrounds, made by http://twitter.com/msurguy -->
-{{ Form::open(array('route' => 'sesiones.store','class' => 'form-horizontal')) }}
+
 
 
 <div class="container">
@@ -58,7 +58,7 @@
         </div>
     </div>
 </div>
-{{Form::close() }}
+
 
 
 
