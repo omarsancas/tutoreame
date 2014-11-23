@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e862d6-9bee-4a73-a054-7104c466679f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/usuariobusqueda.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/videollamada.blade.php" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\tutoreame\public\robots.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.blade.php" afterPath="$PROJECT_DIR$/app/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login.blade.php" afterPath="$PROJECT_DIR$/app/views/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/usuario.blade.php" afterPath="$PROJECT_DIR$/app/views/usuario.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videollamada.blade.php" afterPath="$PROJECT_DIR$/app/views/videollamada.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutoreame.iws" />
@@ -53,25 +47,25 @@
       <file leaf-file-name="usuario.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/usuario.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="33" selection-start="0" selection-end="10052" vertical-scroll-proportion="0.0" vertical-offset="4992" max-vertical-offset="7680">
+            <state line="183" column="12" selection-start="7273" selection-end="7445" vertical-scroll-proportion="0.0" vertical-offset="6351" max-vertical-offset="7680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videollamada.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="videollamada.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/videollamada.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="10" selection-start="7420" selection-end="7420" vertical-scroll-proportion="0.0" vertical-offset="5122" max-vertical-offset="6752">
+            <state line="178" column="84" selection-start="7141" selection-end="7141" vertical-scroll-proportion="0.48164147" vertical-offset="5250" max-vertical-offset="6848">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuariobusqueda.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="usuariobusqueda.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/usuariobusqueda.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="69" selection-start="11067" selection-end="11067" vertical-scroll-proportion="2.8962963" vertical-offset="4495" max-vertical-offset="8800">
+            <state line="237" column="129" selection-start="11679" selection-end="11773" vertical-scroll-proportion="0.0" vertical-offset="7471" max-vertical-offset="8800">
               <folding />
             </state>
           </provider>
@@ -150,8 +144,8 @@
         <option value="$PROJECT_DIR$/app/views/usuario.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/views/videollamada.blade.php" />
         <option value="$PROJECT_DIR$/app/views/usuariobusqueda.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/videollamada.blade.php" />
       </list>
     </option>
   </component>
@@ -389,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/usuario.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="33" selection-start="0" selection-end="10052" vertical-scroll-proportion="0.0" vertical-offset="4992" max-vertical-offset="7680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="35" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="2080">
@@ -403,16 +390,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/videollamada.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/views/usuario.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="10" selection-start="7420" selection-end="7420" vertical-scroll-proportion="0.0" vertical-offset="5122" max-vertical-offset="6752">
+        <state line="183" column="12" selection-start="7273" selection-end="7445" vertical-scroll-proportion="0.0" vertical-offset="5376" max-vertical-offset="7680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/usuariobusqueda.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="69" selection-start="11067" selection-end="11067" vertical-scroll-proportion="2.8962963" vertical-offset="4495" max-vertical-offset="8800">
+        <state line="237" column="129" selection-start="11679" selection-end="11773" vertical-scroll-proportion="0.0" vertical-offset="7471" max-vertical-offset="8800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/videollamada.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="84" selection-start="7141" selection-end="7141" vertical-scroll-proportion="0.48164147" vertical-offset="5250" max-vertical-offset="6848">
           <folding />
         </state>
       </provider>

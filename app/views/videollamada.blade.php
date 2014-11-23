@@ -167,21 +167,24 @@
     </nav>
     <div class="container-fluid">
         <div class="panel panel-default">
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="active"><a href="#home" role="tab" data-toggle="tab"><i class="fa fa-picture-o"></i> Búsqueda</a>
-                </li>
-
-            </ul>
 
 
         <div class="panel panel-default">
-            <div class="panel-heading panel-heading-gray">
+            <div class="panel-heading panel-heading-gray pull-center">
                 <i class="fa fa-bookmark"></i> Video llamada
             </div>
             <div class="panel-body">
 
 
-                <img src="images/demo/dribbble_video_load.gif" height="350" width="350" class="img-circle" />
+                <img src="images/demo/dribbble_video_load.gif" height="600" width="600" class="img-circle" />
+
+                <h1> Conectando con el tutor ...</h1>
+
+                <div class="form-group">
+                    <p>
+                        <a href="{{ URL::to('calificar')}}" class="btn btn-success btn-lg ">Terminar tutoría</a>
+                    </p>
+                </div>
 
 
             </div>
